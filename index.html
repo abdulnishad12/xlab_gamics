@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TiBox - Innovate Create Elevate</title>
+  <title>Solutry - Secure IT solutions</title>
 
   <!-- 
     - favicon
@@ -22,13 +22,8 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap"
     rel="stylesheet">
-
-  <!-- 
-    - preload images
-  -->
 </head>
 
 <body id="top">
@@ -37,132 +32,54 @@
     - #HEADER
   -->
 
-  <header class="header">
+  <header class="header" data-header>
+    <div class="container">
 
-    <div class="header-top">
-      <div class="container">
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" alt="Solutry logo">
+      </a>
 
-        <div class="countdown-text" style = "position:absolute; left:10px;">
-          Unlocking Creativity: Choose from Our Range of Innovative DIY Kits"<span class="span skewBg"></span> 
-        </div>
-
-        <div class="social-wrapper" style = "position:absolute; right:10px;">
-
-          <p class="social-title">Follow us on :</p>
-
-          <ul class="social-list">
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-pinterest"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
-
-        </div>
-
-      </div>
-    </div>
-
-    <div class="header-bottom skewBg" data-header>
-      <div class="container">
-        <a href="#" class="logo" style = "position:absolute; left:10px;" >TiBox</a>
-        <nav class="navbar" data-navbar>
-          <ul class="navbar-list">
-
-            <li class="navbar-item">
-              <a href="#home" class="navbar-link skewBg" data-nav-link>Home</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#live" class="navbar-link skewBg" data-nav-link>Services</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#features" class="navbar-link skewBg" data-nav-link>Prodcuts</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#shop" class="navbar-link skewBg" data-nav-link>Projects</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#blog" class="navbar-link skewBg" data-nav-link>Career/Freelancers</a>
-            </li>
-            <li class="navbar-item">
-              <a href="#" class="navbar-link skewBg" data-nav-link>Part-Time student Workers</a>
-            </li>
-            <li class="navbar-item">
-              <a href="#newsletter" class="navbar-link skewBg" data-nav-link>Contact us</a>
-            </li>
-
-          </ul>
-        </nav>
-
-        <div class="header-actions">
-
-          <!-- <button class="cart-btn" aria-label="cart">
-            <ion-icon name="cart"></ion-icon>
-
-            <span class="cart-badge">0</span>
-          </button>
-
-          <button class="search-btn" aria-label="open search" data-search-toggler>
-            <ion-icon name="search-outline"></ion-icon>
-          </button> -->
-
-          <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
-            <ion-icon name="menu-outline" class="menu"></ion-icon>
-            <ion-icon name="close-outline" class="close"></ion-icon>
-          </button>
-
-        </div>
-
-      </div>
-    </div>
-
-  </header>
-
-
-
-
-
-  <!-- 
-    - #SEARCH BOX
-  -->
-
-  <div class="search-container" data-search-box>
-
-    <div class="input-wrapper">
-      <input type="search" name="search" aria-label="search" placeholder="Search here..." class="search-field">
-
-      <button class="search-submit" aria-label="submit search" data-search-toggler>
-        <ion-icon name="search-outline"></ion-icon>
+      <button class="nav-toggle-btn" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
       </button>
 
-      <button class="search-close" aria-label="close search" data-search-toggler></button>
-    </div>
+      <nav class="navbar">
+        <div class="container">
+          <ul class="navbar-list">
 
-  </div>
+            <li>
+              <a href="#home" class="navbar-link" data-navbar-link>Home</a>
+            </li>
+
+            <li>
+              <a href="#features" class="navbar-link" data-navbar-link>Features</a>
+            </li>
+
+            <li>
+              <a href="#service" class="navbar-link" data-navbar-link>Service</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="navbar-link" data-navbar-link>Blog</a>
+            </li>
+
+            <li>
+              <a href="#newsletter" class="navbar-link" data-navbar-link>Newsletter</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+      <button class="btn btn-secondary">
+        <span>Get Started</span>
+
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+      </button>
+
+    </div>
+  </header>
 
 
 
@@ -175,30 +92,146 @@
         - #HERO
       -->
 
-      <section class="section hero" id="home" aria-label="home"
-        style="background-image: url('./assets/images/hero-bg.jpg')">
+      <section class="hero" id="home">
+
+        <img src="./assets/images/shape1.png" alt="Illustration art" class="shape shape-1">
+        <img src="./assets/images/shape2.png" alt="Illustration art" class="shape shape-2">
+        <img src="./assets/images/shape3.png" alt="Illustration art" class="shape shape-3">
+
         <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" alt="Illustration art" loading="lazy" class="w-100">
+          </figure>
 
           <div class="hero-content">
 
-            <p class="hero-subtitle">TECHNOLOGY INSIDE BOX</p>
+            <h2 class="h1 hero-title">Secure IT solutions for a more secure environment</h2>
 
-            <h1 class="h1 hero-title">
-              Be an<span class="span"> Investor/Partner </span>
-            </h1>
-
-            <p class="hero-text">
-              Internship and Collaboration 
-              Oppertunities.
+            <p class="section-text">
+              Velit hendrerit sit auctor tempor sem. Congue mi tempor condimentum felis arcu, non cursus. Nulla pharetra
+              porttitor sed
+              platea arcu et leo odio.
             </p>
 
-            <button class="btn skewBg">Click her to Know More</button>
+            <button class="btn btn-primary">
+              <span>Get Started Now</span>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
 
           </div>
 
-          <figure class="hero-banner img-holder" style="--width: 1400; --height: 1400;">
-            <img src="./assets/images/pic-1.png" width="1400" height="1400" alt="hero banner" class="w-100">
-          </figure>
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="features" id="features">
+        <div class="container">
+
+          <p class="section-subtitle">How Can Help You</p>
+
+          <h2 class="h2 section-title">We’re helping teams do their best work</h2>
+
+          <ul class="features-list">
+
+            <li>
+              <div class="features-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-1.png" alt="Illustration icon">
+                </div>
+
+                <h3 class="h3 card-title">Zero Configuration</h3>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed est non feugiat sagittis.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Learn More</span>
+
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" alt="Illustration icon">
+                </div>
+
+                <h3 class="h3 card-title">Code Security</h3>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed est non feugiat sagittis.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Learn More</span>
+
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-3.png" alt="Illustration icon">
+                </div>
+
+                <h3 class="h3 card-title">Team Management</h3>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed est non feugiat sagittis.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Learn More</span>
+
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-4.png" alt="Illustration icon">
+                </div>
+
+                <h3 class="h3 card-title">Access Controlled</h3>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed est non feugiat sagittis.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Learn More</span>
+
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
 
         </div>
       </section>
@@ -208,556 +241,123 @@
 
 
       <!-- 
-        - #BRAND
+        - #SERVICE
       -->
 
-      <!-- <section class="section brand" aria-label="brand">
+      <section class="service" id="service">
         <div class="container">
 
-          <ul class="has-scrollbar">
+          <figure class="service-banner">
+            <img src="./assets/images/service-1.png" alt="Illustration art" loading="lazy" class="w-100">
+          </figure>
 
-            <li class="brand-item">
-              <img src="./assets/images/brand-1.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
+          <div class="service-content">
 
-            <li class="brand-item">
-              <img src="./assets/images/brand-2.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
+            <p class="section-subtitle">Services We Offer</p>
 
-            <li class="brand-item">
-              <img src="./assets/images/brand-3.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
+            <h2 class="h2 section-title">We are here, to help your startup business</h2>
 
-            <li class="brand-item">
-              <img src="./assets/images/brand-4.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
+            <ul class="service-list">
 
-            <li class="brand-item">
-              <img src="./assets/images/brand-5.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
+              <li class="service-item">
 
-            <li class="brand-item">
-              <img src="./assets/images/brand-6.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
-
-          </ul>
-
-        </div>
-      </section> -->
-
-
-
-
-
-      <div class="section-wrapper">
-
-        <!-- 
-          - #LATEST GAME
-        -->
-
-        <section class="section latest-game" aria-label="latest game">
-          <div class="container">
-
-            <p class="section-subtitle">Latest Releases</p>
-
-            <h2 class="h2 section-title">
-              Create & <span class="span">Manage</span>
-            </h2>
-
-            <ul class="has-scrollbar">
-
-              <li class="scrollbar-item">
-                <div class="latest-game-card">
-
-                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
-                    <img src="./assets/images/latest-game-1.jpg" width="400" height="470" loading="lazy"
-                      alt="White Walker Daily" class="img-cover">
-                  </figure>
-
-                  <div class="card-content">
-
-                    <a href="#" class="card-badge skewBg">Zombie</a>
-
-                    <h3 class="h3">
-                      <a href="#" class="card-title">White Walker <span class="span">Daily</span></a>
-                    </h3>
-
-                    <p class="card-price">
-                      Entry Fee : <span class="span">Free</span>
-                    </p>
-
-                  </div>
-
+                <div class="service-item-icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
                 </div>
+
+                <h3 class="h3 service-item-title">Cloud Databases</h3>
+
               </li>
 
-              <li class="scrollbar-item">
-                <div class="latest-game-card">
+              <li class="service-item">
 
-                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
-                    <img src="./assets/images/latest-game-2.jpg" width="400" height="470" loading="lazy"
-                      alt="Hunter Killer II" class="img-cover">
-                  </figure>
-
-                  <div class="card-content">
-
-                    <a href="#" class="card-badge skewBg">Adventure</a>
-
-                    <h3 class="h3">
-                      <a href="#" class="card-title">Hunter Killer <span class="span">II</span></a>
-                    </h3>
-
-                    <p class="card-price">
-                      Entry Fee : <span class="span">$25.00</span>
-                    </p>
-
-                  </div>
-
+                <div class="service-item-icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
                 </div>
+
+                <h3 class="h3 service-item-title">Website Hosting</h3>
+
               </li>
 
-              <li class="scrollbar-item">
-                <div class="latest-game-card">
+              <li class="service-item">
 
-                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
-                    <img src="./assets/images/latest-game-3.jpg" width="400" height="470" loading="lazy"
-                      alt="Cyberpunk Daily" class="img-cover">
-                  </figure>
-
-                  <div class="card-content">
-
-                    <a href="#" class="card-badge skewBg">Action</a>
-
-                    <h3 class="h3">
-                      <a href="#" class="card-title">Cyberpunk <span class="span">Daily</span></a>
-                    </h3>
-
-                    <p class="card-price">
-                      Entry Fee : <span class="span">$25.00</span>
-                    </p>
-
-                  </div>
-
+                <div class="service-item-icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
                 </div>
+
+                <h3 class="h3 service-item-title">Remote Desktop</h3>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-item-icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 service-item-title">File Backup</h3>
+
               </li>
 
             </ul>
 
           </div>
-        </section>
 
+          <figure class="service-banner">
+            <img src="./assets/images/service-2.png" alt="Illustration art" loading="lazy" class="w-100">
+          </figure>
 
+          <div class="service-content">
 
+            <p class="section-subtitle">Our Services</p>
 
+            <h2 class="h2 section-title">Best IT & technology service in your area</h2>
 
-        <!-- 
-          - #LIVE MATCH
-        -->
+            <ul class="service-list">
 
-        <!-- <section class="section live-match" id="live" aria-label="live match">
-          <div class="container">
+              <li class="service-item">
 
-            <h2 class="h2 section-title">
-              Watch Live <span class="span">Match</span>
-            </h2>
+                <div class="service-item-icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
 
-            <figure class="live-match-banner img-holder" style="--width: 800; --height: 470;">
+                <h3 class="h3 service-item-title">Design & Development</h3>
 
-              <img src="./assets/images/live-match-banner.jpg" width="800" height="470" loading="lazy"
-                alt="Live Match Video" class="img-cover">
+              </li>
 
-              <button class="play-btn" aria-label="play video">
-                <ion-icon name="play"></ion-icon>
-              </button>
+              <li class="service-item">
 
-            </figure>
+                <div class="service-item-icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
 
-            <div class="live-match-player">
+                <h3 class="h3 service-item-title">Android Apps Development</h3>
 
-              <figure class="player player-1 img-holder" style="--width: 406; --height: 277;">
-                <img src="./assets/images/bulb 1.png" width="1000" height="1000" loading="lazy"
-                  alt="tokyo eagle" class="w-100">
-              </figure>
+              </li>
 
-              <div class="live-match-detail">
+              <li class="service-item">
 
-                <p class="live-match-subtitle">Creativity Meets Innovation</p>
+                <div class="service-item-icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
 
-                <time class="live-match-time" datetime="08:30"></time>
+                <h3 class="h3 service-item-title">Laravel Web Development</h3>
 
-              </div>
+              </li>
 
-              <figure class="player player-2 img-holder" style="--width: 400; --height: 305;">
-                <img src="./assets/images/head1.png" width="400" height="305" loading="lazy"
-                  alt="new york hunter7" class="w-100">
-              </figure>
+              <li class="service-item">
 
-            </div>
+                <div class="service-item-icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 service-item-title">React Web Development</h3>
+
+              </li>
+
+            </ul>
 
           </div>
-        </section>
-
-      </div> -->
-
-
-
-
-
-      <!-- 
-        - #FEATURED GAME
-      -->
-
-      <section class="section featured-game" id="features" aria-label="featured game">
-        <div class="container">
-
-          <h2 class="h2 section-title">
-          CAREER AND <span class="span"> JOB SUPPORT</span>
-          </h2>
-
-          <ul class="has-scrollbar">
-
-            <li class="scrollbar-item">
-              <div class="featured-game-card">
-
-                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
-                  <img src="./assets/images/student 1.jpg" width="450" height="600" loading="lazy"
-                    alt="Just for Gamers" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title" tabindex="-1">
-                       <span class="span">Students</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span"> </span>
-                  </span>
-
-                </div>
-
-                <div class="card-content-overlay">
-
-                  <img src="./assets/images/featured-game-icon.png" width="36" height="61" loading="lazy" alt=""
-                    class="card-icon">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">
-                       <span class="span">Students</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span">
-                      <ul>
-                        <li>Trining</li>
-                        <li>Internship on Real Time Projects in Startups</li>
-                        <li></li>
-                      </ul>
-                      
-                    </span>
-                  </span>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="featured-game-card">
-
-                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
-                  <img src="./assets/images/emp 1.jpg" width="450" height="600" loading="lazy"
-                    alt="Need for Speed" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title" tabindex="-1">
-                       <span class="span">Employees</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span"></span>
-                  </span>
-
-                </div>
-
-                <div class="card-content-overlay">
-
-                  <img src="./assets/images/featured-game-icon.png" width="36" height="61" loading="lazy" alt=""
-                    class="card-icon">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">
-                       <span class="span">Employees</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span">
-                      <ul>
-                        <li>Experience in Real Time Projects in Startups</li>
-                        <li>Certificate of Contribution in Startup Projects</li>
-                        <li></li>
-                      </ul>
-                      
-                    </span>
-                  </span>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="featured-game-card">
-
-                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
-                  <img src="./assets/images/collab1.jpg" width="450" height="600" loading="lazy"
-                    alt="Egypt Hunting Gamers" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title" tabindex="-1">
-                       <span class="span">Collabe With Us</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span"></span>
-                  </span>
-
-                </div>
-
-                <div class="card-content-overlay">
-
-                  <img src="./assets/images/featured-game-icon.png" width="36" height="61" loading="lazy" alt=""
-                    class="card-icon">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">
-                      <span class="span">Collabe With Us</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span">
-                      <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                      </ul>
-                      
-                    </span>
-                  </span>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="featured-game-card">
-
-                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
-                  <img src="./assets/images/Interview.png" width="450" height="600" loading="lazy"
-                    alt="Just for Gamers" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title" tabindex="-1">
-                       <span class="span">Intrview Support</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span"></span>
-                  </span>
-
-                </div>
-
-                <div class="card-content-overlay">
-
-                  <img src="./assets/images/featured-game-icon.png" width="36" height="61" loading="lazy" alt=""
-                    class="card-icon">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">
-                      <span class="span">Promotion and Interview Support</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span"></span>
-                  </span>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #SHOP
-      -->
-
-      <section class="section shop" id="shop" aria-label="shop"
-        style="background-image: url('./assets/images/shop-bg.jpg')">
-        <div class="container">
-
-          <h2 class="h2 section-title">
-            OUR PROJECTS <span class="span">Corner</span>
-          </h2>
-
-          <p class="section-text">
-             The Projects  We Are 
-            Working With.
-          </p>
-
-          <ul class="has-scrollbar">
-
-            <li class="scrollbar-item">
-              <div class="shop-card">
-
-                <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
-                  <img src="./assets/images/op2.png" width="300" height="260" loading="lazy"
-                    alt="Women Black T-Shirt" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <a href="#" class="card-badge skewBg">MINIOTA</a>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Platform-OS</a>
-                  </h3>
-
-                  <!-- <div class="card-wrapper">
-                    <p class="card-price"></p>
-
-                    
-                  </div> -->
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="shop-card">
-
-                <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
-                  <img src="./assets/images/lg.PNG" width="300" height="260" loading="lazy"
-                    alt="Gears 5 Xbox Controller" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <a href="#" class="card-badge skewBg">UI/UX</a>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">UI/UX-FullStack Development</a>
-                  </h3>
-
-                  <!-- <div class="card-wrapper">
-                    <p class="card-price">$29.00</p>
-
-                    
-                  </div> -->
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="shop-card">
-
-                <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
-                  <img src="./assets/images/DEVOPS.png" width="300" height="260" loading="lazy"
-                    alt="GeForce RTX 2070" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <a href="#" class="card-badge skewBg">CLOUD DRAGON</a>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">DevOps And Cloud</a>
-                  </h3>
-
-                  <!-- <div class="card-wrapper">
-                    <p class="card-price">$29.00</p>
-
-                   
-                  </div> -->
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="shop-card">
-
-                <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
-                  <img src="./assets/images/others.png" width="300" height="260" loading="lazy"
-                    alt="Virtual Reality Smiled" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <a href="#" class="card-badge skewBg">Others</a>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">....</a>
-                  </h3>
-
-                  <!-- <div class="card-wrapper">
-                    <p class="card-price">$29.00</p>
-
-                    
-                  </div> -->
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
 
         </div>
       </section>
@@ -770,59 +370,46 @@
         - #BLOG
       -->
 
-      <!-- <section class="section blog" id="blog" aria-label="blog">
+      <section class="blog" id="blog">
         <div class="container">
 
-          <h2 class="h2 section-title">
-            Latest News & <span class="span">Articles</span>
-          </h2>
+          <p class="section-subtitle">Latest News</p>
 
-          <p class="section-text">
-            Compete With 100 Players On A Remote Island For Winner Takes Showdown Known Issue Where Certain Skin
-            Strategic
-          </p>
+          <h2 class="h2 section-title">Our latest articles & resources</h2>
 
           <ul class="blog-list">
 
             <li>
               <div class="blog-card">
 
-                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
-                  <img src="./assets/images/blog-1.jpg" width="400" height="290" loading="lazy"
-                    alt="Shooter Action Video" class="img-cover">
+                <figure class="blog-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-1.jpg" alt="How is technology working with new things?"
+                      loading="lazy" class="w-100">
+                  </a>
                 </figure>
 
-                <div class="card-content">
+                <div class="blog-content">
 
-                  <ul class="card-meta-list">
+                  <ul class="blog-meta-list">
 
-                    <li class="card-meta-item">
-                      <ion-icon name="person-outline"></ion-icon>
+                    <li class="blog-meta-item">
+                      <ion-icon name="pricetag-outline"></ion-icon>
 
-                      <a href="#" class="item-text">Admin</a>
+                      <a href="#" class="blog-meta-link">Technology</a>
                     </li>
 
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline"></ion-icon>
+                    <li class="blog-meta-item">
+                      <ion-icon name="calendar-number-outline"></ion-icon>
 
-                      <time datetime="2022-09-19" class="item-text">September 19, 2022</time>
+                      <time class="blog-meta-time" datetime="2022-02-25">25 Feb, 2022</time>
                     </li>
 
                   </ul>
 
-                  <h3>
-                    <a href="#" class="card-title">Shooter Action Video</a>
+                  <h3 class="h3 blog-title">
+                    <a href="#">How is technology working with new things?</a>
                   </h3>
-
-                  <p class="card-text">
-                    Compete With 100 Players On A Remote Island Thats Winner Takes Showdown Known Issue.
-                  </p>
-
-                  <a href="#" class="card-link">
-                    <span class="span">Read More</span>
-
-                    <ion-icon name="caret-forward"></ion-icon>
-                  </a>
 
                 </div>
 
@@ -832,42 +419,34 @@
             <li>
               <div class="blog-card">
 
-                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
-                  <img src="./assets/images/blog-2.jpg" width="400" height="290" loading="lazy" alt="The Walking Dead"
-                    class="img-cover">
+                <figure class="blog-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-2.jpg" alt="Top 10 important tips on IT services & design"
+                      loading="lazy" class="w-100">
+                  </a>
                 </figure>
 
-                <div class="card-content">
+                <div class="blog-content">
 
-                  <ul class="card-meta-list">
+                  <ul class="blog-meta-list">
 
-                    <li class="card-meta-item">
-                      <ion-icon name="person-outline"></ion-icon>
+                    <li class="blog-meta-item">
+                      <ion-icon name="pricetag-outline"></ion-icon>
 
-                      <a href="#" class="item-text">Admin</a>
+                      <a href="#" class="blog-meta-link">Design</a>
                     </li>
 
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline"></ion-icon>
+                    <li class="blog-meta-item">
+                      <ion-icon name="calendar-number-outline"></ion-icon>
 
-                      <time datetime="2022-09-19" class="item-text">September 19, 2022</time>
+                      <time class="blog-meta-time" datetime="2022-02-25">25 Feb, 2022</time>
                     </li>
 
                   </ul>
 
-                  <h3>
-                    <a href="#" class="card-title">The Walking Dead</a>
+                  <h3 class="h3 blog-title">
+                    <a href="#">Top 10 important tips on IT services & design</a>
                   </h3>
-
-                  <p class="card-text">
-                    Compete With 100 Players On A Remote Island Thats Winner Takes Showdown Known Issue.
-                  </p>
-
-                  <a href="#" class="card-link">
-                    <span class="span">Read More</span>
-
-                    <ion-icon name="caret-forward"></ion-icon>
-                  </a>
 
                 </div>
 
@@ -877,42 +456,34 @@
             <li>
               <div class="blog-card">
 
-                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
-                  <img src="./assets/images/blog-3.jpg" width="400" height="290" loading="lazy"
-                    alt="Defense Of The Ancients" class="img-cover">
+                <figure class="blog-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-3.jpg" alt="How our company works in different ways" loading="lazy"
+                      class="w-100">
+                  </a>
                 </figure>
 
-                <div class="card-content">
+                <div class="blog-content">
 
-                  <ul class="card-meta-list">
+                  <ul class="blog-meta-list">
 
-                    <li class="card-meta-item">
-                      <ion-icon name="person-outline"></ion-icon>
+                    <li class="blog-meta-item">
+                      <ion-icon name="pricetag-outline"></ion-icon>
 
-                      <a href="#" class="item-text">Admin</a>
+                      <a href="#" class="blog-meta-link">Startup</a>
                     </li>
 
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline"></ion-icon>
+                    <li class="blog-meta-item">
+                      <ion-icon name="calendar-number-outline"></ion-icon>
 
-                      <time datetime="2022-09-19" class="item-text">September 19, 2022</time>
+                      <time class="blog-meta-time" datetime="2022-02-25">25 Feb, 2022</time>
                     </li>
 
                   </ul>
 
-                  <h3>
-                    <a href="#" class="card-title">Defense Of The Ancients</a>
+                  <h3 class="h3 blog-title">
+                    <a href="#">How our company works in different ways</a>
                   </h3>
-
-                  <p class="card-text">
-                    Compete With 100 Players On A Remote Island Thats Winner Takes Showdown Known Issue.
-                  </p>
-
-                  <a href="#" class="card-link">
-                    <span class="span">Read More</span>
-
-                    <ion-icon name="caret-forward"></ion-icon>
-                  </a>
 
                 </div>
 
@@ -922,7 +493,7 @@
           </ul>
 
         </div>
-      </section> -->
+      </section>
 
 
 
@@ -932,30 +503,27 @@
         - #NEWSLETTER
       -->
 
-      <section class="section newsletter"id="newsletter" aria-label="newsletter">
+      <section class="newsletter" id="newsletter">
         <div class="container">
 
-          <div class="newsletter-card">
+          <figure class="newsletter-banner">
+            <img src="./assets/images/newsletter.png" alt="Illustration art" loading="lazy" class="w-100">
+          </figure>
 
-            <h2 class="h2">
-              Our <span class="span">Newsletter</span>
-            </h2>
+          <div class="newsletter-content">
+
+            <p class="section-subtitle">Subscribe Our Newsletter</p>
+
+            <h2 class="h2 section-title">The latest resources, sent to your inbox weekly</h2>
 
             <form action="" class="newsletter-form">
+              <input type="email" name="email" required placeholder="Enter your email address" class="input-field">
 
-              <div class="input-wrapper skewBg">
-                <input type="email" name="email_address" aria-label="email" placeholder="Enter your email..." required
-                  class="email-field">
+              <button type="submit" class="btn btn-primary">
+                <span>Subscribe Now</span>
 
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
-
-              <button type="submit" class="btn newsletter-btn skewBg">
-                <span class="span">Subscribe</span>
-
-                <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+                <ion-icon name="chevron-forward-outline"></ion-icon>
               </button>
-
             </form>
 
           </div>
@@ -981,181 +549,152 @@
 
         <div class="footer-brand">
 
-          <a href="#" class="logo">TiBox</a>
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="Solutry logo">
+          </a>
 
-          <p class="footer-text">
-            "Crafting Tomorrow, Today: Shop Our Innovative DIY Kits"
+          <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+            minim.
           </p>
+
+          <div class="location-text">
+            <div class="location-icon">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="address">
+              2750 Quadra Street Victoria, Canada.
+            </address>
+          </div>
+
+        </div>
+
+        <div class="quicklink-box">
+          <p class="h3 quicklink-title">Quick links</p>
+
+          <ul class="quicklink-list">
+
+            <li>
+              <a href="#" class="quicklink">IT Startup</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink">Software</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink">Business</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink">App</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink">Insurance</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink">Property</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink">Big Data</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink">Distance Learning</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink">Chatbot</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink">Medical</a>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="contact">
+          <p class="h3 contact-title">Contact with us</p>
 
           <ul class="contact-list">
 
             <li class="contact-item">
               <div class="contact-icon">
-                <ion-icon name="location"></ion-icon>
+                <ion-icon name="mail-outline"></ion-icon>
               </div>
 
-              <address class="item-text">
-                Address : PO Box W75 Street lan West new queens
-              </address>
+              <a href="mailto:hello@solutry.com" class="contact-link">hello@solutry.com</a>
             </li>
 
             <li class="contact-item">
               <div class="contact-icon">
-                <ion-icon name="headset"></ion-icon>
+                <ion-icon name="call-outline"></ion-icon>
               </div>
 
-              <a href="tel:+241245654235" class="item-text">Phone : +24 1245 654 235</a>
-            </li>
-
-            <li class="contact-item">
-              <div class="contact-icon">
-                <ion-icon name="mail-open"></ion-icon>
-              </div>
-
-              <a href="mailto:info@exemple.com" class="item-text">Email : info@exemple.com</a>
+              <a href="tel:+14854560102" class="contact-link">+1-485-456-0102</a>
             </li>
 
           </ul>
-
-        </div>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Products</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Graphics (26)</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Backgrounds (11)</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Fonts (9)</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Music (3)</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Photography (3)</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Need Help?</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Terms & Conditions</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Privacy Policy</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Refund Policy</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Affiliate</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Use Cases</a>
-          </li>
-
-        </ul>
-
-        <div class="footer-wrapper">
-
-          <div class="social-wrapper">
-
-            <p class="footer-list-title">Follow Us</p>
-
-            <ul class="social-list">
-
-              <li>
-                <a href="#" class="social-link" style="background-color: #3b5998">
-                  <ion-icon name="logo-facebook"></ion-icon>
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="social-link" style="background-color: #55acee">
-                  <ion-icon name="logo-twitter"></ion-icon>
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="social-link" style="background-color: #d71e18">
-                  <ion-icon name="logo-pinterest"></ion-icon>
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="social-link" style="background-color: #1565c0">
-                  <ion-icon name="logo-linkedin"></ion-icon>
-                </a>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <div class="footer-newsletter">
-
-            <p class="footer-list-title">Newsletter Sign Up</p>
-
-            <form action="" class="footer-newsletter">
-              <input type="email" name="email_address" aria-label="email" placeholder="Enter your email" required
-                class="email-field">
-
-              <button type="submit" class="footer-btn" aria-label="submit">
-                <ion-icon name="rocket"></ion-icon>
-              </button>
-            </form>
-
-          </div>
-
         </div>
 
       </div>
     </div>
 
-    <!-- <div class="footer-bottom">
+    <div class="footer-bottom">
       <div class="container">
 
         <p class="copyright">
-          &copy; 2022 Gamics. All Right Reserved by <a href="#" class="copyright-link">codewithsadee</a>
+          &copy; 2022 <a href="#">codewithsadee</a>. All Rights Reserved
         </p>
 
-        <img src="./assets/images/footer-bottom-img.png" width="340" height="21" loading="lazy" alt=""
-          class="footer-bottom-img">
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
 
       </div>
     </div>
 
-  </footer> -->
+  </footer>
 
 
 
 
 
   <!-- 
-    - #BACK TO TOP
+    - #GO TO TOP
   -->
 
-  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
-    <ion-icon name="caret-up"></ion-icon>
+  <a href="#top" class="go-top active" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
   </a>
 
 
@@ -1165,7 +704,7 @@
   <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js" defer></script>
+  <script src="./assets/js/script.js"></script>
 
   <!-- 
     - ionicon link
